@@ -1,53 +1,32 @@
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> dev
 .footer__top {
-  @include mob-only {
+  @include mq(mob) {
     text-align: center;
     padding-top: 24px;
     padding-bottom: 32px;
   }
 
-<<<<<<< HEAD
   //   @media screen and (min-width: 768px) {
   //     display: flex;
   //   }
 
   @include mq(tab) {
     display: flex;
-=======
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-
-  @include tab-only {
->>>>>>> dev
     padding-top: 50px;
     padding-bottom: 40px;
   }
 
-<<<<<<< HEAD
   @include mq(desk) {
-=======
-  @include desk-only {
->>>>>>> dev
     padding-top: 52px;
     padding-bottom: 53px;
   }
 }
 
 .logo__icon {
-  @include mob-only {
+  @include mq(mob) {
     margin-bottom: 20px;
   }
 
-<<<<<<< HEAD
   @include tab-only {
-=======
-  @include tablet-only {
->>>>>>> dev
     margin-right: auto;
   }
   @include desk-only {
@@ -66,19 +45,19 @@
   letter-spacing: 0.08em;
   color: var($main-text-acent-color);
 
-  @include mob-only {
+  @include mq(mob) {
     margin-bottom: 30px;
   }
 
   @media screen and (min-width: 768px) {
     margin-right: 48px;
 
-    @include tab-only {
+    @include mq(tab) {
       font-size: 20px;
       line-height: 1.2;
     }
 
-    @include desk-only {
+    @include mq(desk) {
       font-size: 30px;
       line-height: 1.23;
     }
@@ -88,13 +67,13 @@
 .footer__icon {
   margin-right: 10px;
 
-  @include tab-only {
+  @include mq(tab) {
     margin-right: 20px;
     width: 24px;
     height: 24px;
   }
 
-  @include desk-only {
+  @include mq(desk) {
     margin-right: 30px;
     width: 30px;
     height: 30px;
@@ -134,11 +113,7 @@
   line-height: 2;
   color: var($secondary-text-color);
 
-  @include mob-only {
+  @include mq(mob) {
     text-align: center;
   }
 }
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> dev
